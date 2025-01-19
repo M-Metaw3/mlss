@@ -1,0 +1,1 @@
+function i(r){const e=localStorage.getItem("mls_admin_profile_data");if(e){const s=JSON.parse(e).user_permissions;if(s){const a=s.find(t=>t.name===r);return a?a.value:!1}else return!1}else return!1}export{i as h};
